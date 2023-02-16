@@ -1,7 +1,12 @@
 import React from "react";
+import Result from "./carddetails/result";
 
 const learn = () => {
-  return <div>learn</div>;
+  return (
+    <>
+      <Result />
+    </>
+  );
 };
 
 export default learn;

@@ -14,7 +14,6 @@ const ProjectCard = () => {
               <div className="blogCard__top p-4">
                 <img src={card.img} alt="img" className="blogCard__image" />
               </div>
-
               <div className="p-3 ">
                 <h3 className="text-xl font-medium">{card.author}</h3>
                 <h5 className="my-2 text-2xl font-semibold">{card.title}</h5>

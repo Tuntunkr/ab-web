@@ -15,7 +15,7 @@ export default function ArticlesPage() {
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 ">
           {CardList.map((card) => (
             <div key={card.id} className="card rounded-lg shadow-lg">
-              <div className="p-3 ">
+              <div className="p-3  rounded-5">
                 <img src={card.img} alt="" />
 
                 <div className="headingtitle">
@@ -27,9 +27,9 @@ export default function ArticlesPage() {
                       fill="currentColor"
                     >
                       <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                        clip-rule="evenodd"
+                        clipRule="evenodd"
                       />
                     </svg>
                   </div>
