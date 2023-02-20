@@ -71,13 +71,6 @@ const Carddetails = () => {
             </div>
           </div>
         </div>
-
-        {/* <div class="main-div">
-          <div class="div-A">IMG , tags, etc..</div>
-          <div class="div-B">Share btns , social icons</div>
-        </div> */}
-
-        {/* About section */}
         <div className="columns">
           <div className="content-container column col-12">
             <div
@@ -107,68 +100,79 @@ const Carddetails = () => {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        {/* Latest News */}
-        {/* <div className="near-content">
-          <div className="content-widget article-widget">
-            <h2 className="content-title">Latest news</h2>
-            <div className="articles-container">
-              <a href="" className="article-item">
-                <img
-                  src="https://imgur.com/HAP5qBg.png"
-                  alt="img"
-                  width={48}
-                  height={40}
-                  className="rounded"
-                  loading="lazy"
-                />
+            {/* Latest News */}
+            <div className="near-content">
+              <div className="content-widget article-widget">
+                <h2 className="content-title">Latest news</h2>
+                <div className="articles-container">
+                  <a href="" className="article-item">
+                    <img
+                      src="https://imgur.com/HAP5qBg.png"
+                      alt="img"
+                      width={48}
+                      height={40}
+                      className="rounded"
+                      loading="lazy"
+                    />
 
-                <div className="article-detail">
-                  <h3 className="article-title">
-                    Luna classic price pridiction
-                  </h3>
-                  <div className="article-info">12th feb, 2023</div>
-                </div>
-              </a>
-              <a href="" className="article-item">
-                <img
-                  src="https://imgur.com/HAP5qBg.png"
-                  alt="img"
-                  width={48}
-                  height={40}
-                  className="rounded"
-                  loading="lazy"
-                />
+                    <div className="article-detail">
+                      <h3 className="article-title">
+                        Luna classic price pridiction
+                      </h3>
+                      <div className="article-info">12th feb, 2023</div>
+                    </div>
+                  </a>
+                  <a href="" className="article-item">
+                    <img
+                      src="https://imgur.com/HAP5qBg.png"
+                      alt="img"
+                      width={48}
+                      height={40}
+                      className="rounded"
+                      loading="lazy"
+                    />
 
-                <div className="article-detail">
-                  <h3 className="article-title">
-                    Luna classic price pridiction
-                  </h3>
-                  <div className="article-info">12th feb, 2023</div>
+                    <div className="article-detail">
+                      <h3 className="article-title">
+                        Luna classic price pridiction
+                      </h3>
+                      <div className="article-info">12th feb, 2023</div>
+                    </div>
+                  </a>
                 </div>
-              </a>
+              </div>
             </div>
           </div>
-        </div> */}
-        {/* Twitter card */}
-        {/* <div className="column "> */}
-        <div className="awesome-card">
-          <div className="awesome-card-ite">
-            <div className="awesome-card-header">
-              <div className="related-projects-title">Twitter thread</div>
+          {/* Twitter Card */}
+          <div className="column">
+            <div className="awesome-cards">
+              <div className="awesome-card-item">
+                <div className="awesome-card-header">
+                  <div className="related-projects-title">Twitter thread</div>
+                </div>
+                <div className="awesome-card-body">
+                  <div className="near-item-header">
+                    <div className="tile">
+                      <a
+                        className="twitter-timeline"
+                        data-width="420"
+                        data-height="520"
+                        data-theme="dark"
+                        href="https://twitter.com/gavofyork?ref_src=twsrc%5Etfw"
+                      >
+                        Tweets by gavofyork
+                      </a>
+                      <script
+                        async
+                        src="https://platform.twitter.com/widgets.js"
+                      ></script>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <a
-            className="twitter-timeline"
-            href="https://twitter.com/gavofyork?ref_src=twsrc%5Etfw"
-          >
-            Tweets by gavofyork
-          </a>{" "}
-          <script async src="https://platform.twitter.com/widgets.js"></script>
         </div>
-        {/* </div> */}
-        {/*  */}
       </section>
     </>
   );

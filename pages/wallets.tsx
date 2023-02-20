@@ -10,7 +10,7 @@ import Link from "next/link";
 const Wallets = () => {
   return (
     <section className="container mx-auto">
-      <Link href="/result/1">
+      <Link href="carddetails/1">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-4 lg:grid-cols-2 ">
           {Project.filter((item) => item.categories.includes("wallets")).map(
             (card) => (

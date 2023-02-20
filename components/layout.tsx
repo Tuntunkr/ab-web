@@ -162,12 +162,12 @@ export default function Layout({ children }: LayoutProps) {
     <div className="flex min-h-screen flex-col ">
       <div className="flex  text-base  flex-col md:flex-row   ">
         {menuItems.map((item) => item.href).includes(pathname) && (
-          <aside className="w-full text-base border-2  border-[#98A2B3] md:w-60 ">
+          <aside className="w-full text-base  border-[#98A2B3] md:w-60 ">
             <nav>
               <ul>
                 {menuItems.map(({ href, title }) => (
                   <li className="m-3 " key={title}>
-                    <Link href={href} className="btn btn-lg text-base  ">
+                    <Link href={href} className="btn btn-lg text-base ">
                       {title}
                     </Link>
                   </li>

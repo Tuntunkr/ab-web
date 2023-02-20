@@ -1,4 +1,4 @@
-export default [
+export const homeArticle =[
     {
         id:1,
         img: "/images/1.jpg",
@@ -17,7 +17,7 @@ export default [
         title: "Cryptocurrency Schemes Creating Artificial Bubbles",
         text: "The introduction of cryptocurrencies in the recent past is one of the outcomes of innovation in the money market. The growth of cryptocurrencies has influenced the development of new business opportunities that have contributed to",
     },
-    {   
+    {
         id:4,
         img: "/images/1.jpg",
         title: "Online Payment Opportunities: PayPal and Bitcoin",
@@ -29,7 +29,7 @@ export default [
         title: "Cryptocurrency Technologies: Communication Theories",
         text: "Therefore, the concept of buying and reselling the cryptocurrency implies following the communication privacy management theory, as well as the uncertainty reduction theory, which is caused by the natural desire of the majority of the",
     },
-    {   
+    {
         id:6,
         img: "/images/1.jpg",
         title: "Bitcoin Digital Currency: Advantages and Disadvantages",
