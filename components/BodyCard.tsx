@@ -5,8 +5,8 @@ import { FaTelegram } from "react-icons/fa";
 import { IoShareSocialSharp } from "react-icons/io5";
 import { AiOutlineGithub } from "react-icons/ai";
 import { useState } from "react";
-import { log } from "console";
-import { string } from "yup";
+// import { log } from "console";
+// import { string } from "yup";
 
 const BlogCard = () => {
   const [state, setState] = useState([1, 0, 0]);

@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
+/* Google Font */
+/* @import url("https://fonts.googleapis.com/css2?family=Kurale&display=swap"); */
+
+/* From Public Directory */
+/* @font-face {
+  font-family: "Kurale";
+  src: url("/fonts/Kurale.ttf");
+  font-style: medium;
+  font-weight: normal;
+  font-display: swap;
+} */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -409,11 +421,6 @@
   width: 20px;
   transform: rotate(323deg);
 }
-/*
-@media (min-width: 768px)
-.md\:ml-60 {
-    margin-left: 15rem;
-} */
 
 /* form css  */
 
@@ -436,20 +443,6 @@ body {
   top: 10vh;
 }
 
-/* a {
-  color: #222;
-  outline: none;
-  text-decoration: none;
-} */
-
-/* a.active,
-a:active,
-a:focus,
-a:hover {
-  color: #090909;
-  text-decoration: underline;
-} */
-
 /*  */
 .section-main {
   padding: 0.4rem;
@@ -467,13 +460,6 @@ a:hover {
   width: 100%;
   overflow: hidden;
   position: relative;
-}
-
-.columns {
-  /* display: flex;
-  flex-wrap: wrap;
-  margin-left: -0.8rem;
-  margin-right: -0.8rem; */
 }
 
 .awesome-hero {
@@ -525,7 +511,6 @@ h1 {
 }
 
 .awesome-hero .hero-tags {
-  /* display: flex; */
   margin: 0.4rem 0;
   gap: 8px;
 }
@@ -562,14 +547,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 0.5rem 0;
-  /* gap: 20px; */
-  /* font-size: 20px; */
 }
-
-/* .btn-group {
-  display: inline-flex;
-  flex-wrap: wrap;
-} */
 
 .awesome-hero .hero-links .link-item.btn.btn-lg {
   padding: 0.3rem 0.5rem;
@@ -600,10 +578,6 @@ a {
 
 /* about section styling */
 
-/* .col-12 {
-  width: 800%;
-} */
-
 .columns {
   display: flex;
   justify-content: flex-end;
@@ -611,9 +585,6 @@ a {
   margin-left: -0.8rem;
   margin-right: -0.8rem;
 }
-
-/* .column-right {
-} */
 
 .near-content .content-widget {
   background: #fff;
@@ -690,9 +661,6 @@ h6 {
 
 /* Twitter card styling */
 
-/* .col-4 {
-  width: 33.33333333%;
-} */
 .column {
   flex: 1;
   max-width: 100%;
@@ -805,7 +773,6 @@ h6 {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  /* background: rgba(34, 34, 34, 0.05); */
   border: 0.1rem solid transparent;
   border-radius: 0.4rem;
   color: #222;
